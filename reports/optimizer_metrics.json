@@ -1,0 +1,54 @@
+{
+  "metrics": {
+    "roc_auc": 1.0,
+    "precision": 0.9977,
+    "recall": 0.9989,
+    "f1": 0.9983,
+    "n_train": 18360,
+    "n_test": 4590,
+    "positive_rate": 0.3829
+  },
+  "classification_report": {
+    "well_utilized": {
+      "precision": 0.9992935358530555,
+      "recall": 0.99858806918461,
+      "f1-score": 0.9989406779661016,
+      "support": 2833.0
+    },
+    "underutilized": {
+      "precision": 0.9977259806708357,
+      "recall": 0.9988616960728515,
+      "f1-score": 0.9982935153583617,
+      "support": 1757.0
+    },
+    "accuracy": 0.9986928104575163,
+    "macro avg": {
+      "precision": 0.9985097582619455,
+      "recall": 0.9987248826287307,
+      "f1-score": 0.9986170966622316,
+      "support": 4590.0
+    },
+    "weighted avg": {
+      "precision": 0.9986934934880968,
+      "recall": 0.9986928104575163,
+      "f1-score": 0.9986929514515485,
+      "support": 4590.0
+    }
+  },
+  "feature_importance": {
+    "provider": 0.008299999870359898,
+    "service": 0.0013000000035390258,
+    "region": 0.003100000089034438,
+    "usage_quantity": 0.0008999999845400453,
+    "unit_price_usd": 0.0035000001080334187,
+    "cost_usd": 0.0006000000284984708,
+    "cpu_util_pct": 0.24639999866485596,
+    "mem_util_pct": 0.5317999720573425,
+    "net_in_bytes": 0.18469999730587006,
+    "net_out_bytes": 0.0007999999797903001,
+    "net_total_bytes": 0.017000000923871994,
+    "duration_hours": 0.0007999999797903001,
+    "day_of_week": 0.00039999998989515007,
+    "month": 0.0005000000237487257
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "mae": 1.068,
+    "rmse": 2.2294,
+    "mape_pct": 25.42,
+    "baseline_naive_mae": 1.3708,
+    "n_train": 3168,
+    "n_test": 792,
+    "improvement_vs_naive_pct": 22.09,
+    "r2": 0.9269,
+    "mape_pct_on_cost_over_5usd": 20.45,
+    "median_ape_pct_on_cost_over_5usd": 16.41
+  },
+  "feature_importance": {
+    "provider": 0.005499999970197678,
+    "service": 0.4837000072002411,
+    "region": 0.022299999371170998,
+    "day_of_week": 0.0010999999940395355,
+    "day_of_month": 0.0012000000569969416,
+    "month": 0.0012000000569969416,
+    "is_weekend": 0.0010000000474974513,
+    "has_utilization_data": 0.0,
+    "cost_lag_1": 0.002199999988079071,
+    "cost_lag_7": 0.0027000000700354576,
+    "cost_roll_mean_7": 0.015599999576807022,
+    "cost_roll_std_7": 0.00139999995008111,
+    "usage_lag_1": 0.0010999999940395355,
+    "usage_roll_mean_7": 0.0017000000225380063,
+    "n_resources": 0.4593999981880188
+  }
+}
